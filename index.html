@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>For Someone Special</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="intro-screen" class="full-screen flex-center">
+        <h1 class="cinematic-text">For Someone Very Special — My NORUU❤️</h1>
+    </div>
+
+    <div id="lock-screen" class="full-screen flex-center hidden">
+        <div class="glass-card">
+            <h2>Unlock Our Moment</h2>
+            <div class="input-group">
+                <input type="password" id="passwordInput" placeholder="Enter the secret word..." autocomplete="off">
+                <button id="unlockBtn">Unlock</button>
+            </div>
+            <p id="error-msg" class="error-text"></p>
+        </div>
+    </div>
+
+    <div id="main-experience" class="full-screen hidden">
+        <canvas id="particleCanvas"></canvas>
+        <div class="content-wrapper flex-center">
+            <div class="letter-card glass-card">
+                <div id="typewriter-text" class="letter-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
